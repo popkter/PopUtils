@@ -1,7 +1,7 @@
-package com.popkter.poputils
+package com.popkter.poputils.clickcontrol
 
 import android.view.View
-import com.popkter.poputils.PopClickConstants.delayMills
+import com.popkter.poputils.constant.PopUtilsConstants.delayMills
 
 /**
  * 单击防抖，默认初始的延迟500ms
@@ -30,6 +30,7 @@ inline fun View.setOnLongSingleClickListener(crossinline onLongClick: () -> Bool
 
 /**
  * 单击防抖，自定义延迟时间
+ * [delayMills] 屏蔽时长
  * [onClick] 点击事件
  */
 inline fun View.setOnSingleClickListener(delayMillis: Long, crossinline onClick: () -> Unit) {
@@ -42,6 +43,7 @@ inline fun View.setOnSingleClickListener(delayMillis: Long, crossinline onClick:
 
 /**
  * 长按防抖，自定义延迟时间
+ * [delayMills] 屏蔽时长
  * [onLongClick] 长按事件
  */
 inline fun View.setOnLongSingleClickListener(delayMillis: Long, crossinline onLongClick: () -> Boolean) {
