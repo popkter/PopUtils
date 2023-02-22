@@ -1,4 +1,3 @@
-# PopUtils
 ## Android 常用的工具类库
 
 > 生命有限，不要重复造轮子
@@ -22,4 +21,11 @@ dependencyResolutionManagement {
 ```groovy
 implementation 'com.github.popkter:PopUtils:vx.xx'
 ```
+
+### 发布版本
+
+详细参见[PopUtils/Releases ](https://github.com/popkter/PopUtils/releases)
+
+- v0.12 [Android快速点击屏蔽工具](https://github.com/popkter/PopUtils/releases/tag/v0.12)
+- v0.15  [Android SharePreference工具类](https://github.com/popkter/PopUtils/releases/tag/v0.15)
 
