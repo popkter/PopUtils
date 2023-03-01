@@ -9,7 +9,11 @@ import java.util.concurrent.ConcurrentMap
 
 class DataTransferHelper {
 
-    val instance by lazy(LazyThreadSafetyMode.SYNCHRONIZED) { DataTransferHelper() }
+    companion object {
+        val INSTANCE by lazy(LazyThreadSafetyMode.SYNCHRONIZED) { DataTransferHelper() }
+    }
+
+
     private val transientData: ConcurrentMap<Class<*>, UseCase?> = ConcurrentHashMap()
     private val publishSubject: PublishSubject<Class<*>> = PublishSubject.create()
     private val behaviorSubject: BehaviorSubject<Class<*>> = BehaviorSubject.create()
