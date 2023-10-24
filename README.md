@@ -29,5 +29,5 @@ implementation 'com.github.popkter:PopUtils:xx.xx'
 - v0.12  [Android快速点击屏蔽工具](https://github.com/popkter/PopUtils/releases/tag/v0.12)
 - v0.15  [Android SharePreference工具类](https://github.com/popkter/PopUtils/releases/tag/v0.15)
 - v0.17  [基于RxJava的线程通讯工具DataTransferHelper ](https://github.com/popkter/PopUtils/releases/tag/v0.17)
-- v0.19  [基于SharedFlow的线程通讯工具DataStreamHelper](https://github.com/popkter/PopUtils/releases/tag/v0.18)
+- v0.18  [基于SharedFlow的线程通讯工具DataStreamHelper](https://github.com/popkter/PopUtils/releases/tag/v0.18)
 
